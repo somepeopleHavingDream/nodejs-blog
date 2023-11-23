@@ -8,7 +8,7 @@ let REDIS_CONF
 if (env === 'dev') {
     // mysql
     MYSQL_CONF = {
-        host: '192.168.1.103',
+        host: '192.168.1.105',
         user: 'root',
         password: '123456',
         port: '3306',
@@ -18,14 +18,14 @@ if (env === 'dev') {
     // redis
     REDIS_CONF = {
         port: 6379,
-        host: '192.168.1.103'
+        host: '192.168.1.105'
     }
 }
 
 if (env === 'production') {
     // mysql
     MYSQL_CONF = {
-        host: '192.168.1.103',
+        host: '192.168.1.105',
         user: 'root',
         password: '123456',
         port: '3306',
@@ -35,7 +35,7 @@ if (env === 'production') {
     // redis
     REDIS_CONF = {
         port: 6379,
-        host: '192.168.1.103'
+        host: '192.168.1.105'
     }
 }
 
